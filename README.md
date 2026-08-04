@@ -1,21 +1,23 @@
-# Mj&ouml;lnir Support Site
+# Mjölnir Forge Website
 
-Static support site for App Store metadata. It includes:
+Static GitHub Pages website for Mjölnir Forge, published by Forge & Frequency LLC.
 
-- `index.html`: support URL landing page
-- `privacy.html`: direct Privacy Policy URL
-- `eula.html`: direct EULA / terms URL
-- `styles.css`: shared responsive styling
-- `assets/hero-hammer.jpg`: compressed support-page hero artwork
+## Included
 
-## App Store Connect URLs
+- Product and brand landing page
+- Strongman event and competition-planning overview
+- App support and common troubleshooting guidance
+- Privacy Policy and EULA links
+- Responsive layouts for desktop, tablet, and mobile
+- Accessible semantic structure and reduced-motion support
+- Custom 404 page
 
-After deploying the site to a public HTTPS host, use:
+## App Store URLs
 
-- Support URL: `https://your-domain.example/`
-- Privacy Policy URL: `https://your-domain.example/privacy.html`
-- EULA URL: `https://your-domain.example/eula.html`
+- Support: `/`
+- Privacy Policy: `/privacy.html`
+- EULA: `/eula.html`
 
-## Before Submission
+## Notes
 
-Replace `support@mjolnir.app` in all HTML files if that is not the real support mailbox. The EULA copy is a product-specific draft and should be reviewed by counsel before being pasted as a custom EULA in App Store Connect.
+The first release uses approved concept artwork as modular WebP assets. Text, navigation, support content, and layout are implemented as HTML so they remain accessible and responsive. The concept phone screens should later be replaced with current screenshots from the shipping app.
